@@ -3,48 +3,36 @@ html {
 }
 
 body{
-/* background-image: url(1077114.png);
-background-repeat: no-repeat;
-background-size: cover; */
-/*background-color:gray;*/
 background-color: #444; 
+text-align: center;
+/*added myself*/line-height: 2em;
 }
-
-html body div.container h1#foo {
-    color:red;
-}
-
-[id="foo"]{
-    color:cyan;
-} /* grabbing ID using attribute selector */
-
-.container h1 {
-    color:red;
-} /* point value of 2 but different pointers */
-
-/* html h1 {
-    color: red;
-}  point value of 2*/ 
-
-h1 {
-    color: green !important;
-} /* !important overrides everything, do NOT use */
-
-
 
 h1, h2, h3 {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
     line-height: 1rem;
-/*    font-family: sans-serif;*/
-} /* every single h1, 2 and 3 these styles are applied across the linked pages to this .css file and across the page, can add infinite things to be applied to (#id, .class) */
+    font-style: italic;
+}
 
+h2 {
+    font-size: 30px; 
+    font-style: normal;
+} 
 
+formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color:white;
+}
 
-/* h2 {
-    color: rgb{ 0, 204, 255};
-    text-shadow: 1px 1px 3px darkblue;
-} */
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    word-spacing: 30px;
+    text-transform: uppercase;
+}
 
 .borderImg{
     border: 10px dashed red;
