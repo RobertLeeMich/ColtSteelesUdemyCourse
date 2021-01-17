@@ -10,10 +10,19 @@ h1 {
     text-shadow: 2px 2px 5px black;
 }
 
-h2 {
+.class {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+#id {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+/* h2 {
     color: rgb{ 0, 204, 255};
     text-shadow: 1px 1px 3px darkblue;
-}
+} */
 
 .borderImg{
     border: 10px dashed red;
@@ -22,4 +31,9 @@ h2 {
 ul li{
     color: white;
     font-size: 20px;
+}
+
+ul > li{
+    /* Any ul that has a child that is a list item that is only 1 level deep inherit the following style rules */
+    color:yellow;
 }
