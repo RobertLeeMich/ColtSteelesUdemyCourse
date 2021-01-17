@@ -5,12 +5,36 @@ body{
     background-color:gray;
 }
 
-h1, h2, h3 .class #id {
+html body div.container h1#foo {
+    color:red;
+}
+
+[id="foo"]{
+    color:cyan;
+} /* grabbing ID using attribute selector */
+
+.container h1 {
+    color:red;
+} /* point value of 2 but different pointers */
+
+/* html h1 {
+    color: red;
+}  point value of 2*/ 
+
+h1 {
+    color: green !important;
+} /* !important overrides everything, do NOT use */
+
+
+
+h1, h2, h3 {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
     line-height: 1rem;
     font-family: sans-serif;
 } /* every single h1, 2 and 3 these styles are applied across the linked pages to this .css file and across the page, can add infinite things to be applied to (#id, .class) */
+
+
 
 /* h2 {
     color: rgb{ 0, 204, 255};
