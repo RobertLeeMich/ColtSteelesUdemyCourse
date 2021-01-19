@@ -1,0 +1,42 @@
+<DOCTYPE html>
+    
+<html lang ="en">
+
+<head>
+    <title>My CSS Website</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+
+<nav>
+<ul class = "topnav" id = "dropdownClick">
+    <li><a href = "#home">Home</a></li>
+    <li><a href = "#News">News</a></li>
+    <li><a href = "#Contact">Contact</a></li>
+    <li><a href = "#About">About</a></li>
+    
+    <li class = "topnav-right"><a href = "#Sign Up">Sign Up</a></li>
+    <li class = "topnav-right"><a href = "#Sign In">Sign In</a></li>
+
+    <li class = "dropdownIcon"><a href="#" onclick ="dropdownMenu()">&#9776;</a></li>
+</ul>    
+</nav>
+
+<script>
+    function dropdownMenu() {
+        var x = document.getElementById(dropdownClick);
+        if (x.className === "topnav") {
+            x.className += " responsive";
+         /* change topnav to topnav.responsive when the page is changed to responsive mode (mobile mode)*/
+        } else {
+        x.className = "topnav";
+        }
+
+    }
+</script>
+
+
+</body>
+
+
+</html>
