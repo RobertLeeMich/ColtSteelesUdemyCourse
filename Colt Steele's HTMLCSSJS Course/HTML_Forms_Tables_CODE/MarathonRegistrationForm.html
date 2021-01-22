@@ -2,19 +2,58 @@
 
 <html>
 
-<head><title></title></head>
+<head>
+    <title></title>
+</head>
 
 <body>
 
-<h1>Race Registration!</h1>
-<div>
-<form>
-    <p><label for="FirstName"></label>
-    <input type="text" name="" id="FirstName">
-    </p>
+    <h1>Race Registration!</h1>
+    <div>
+        <form>
+            <p><label for="FirstName">First Name:</label>
+                <input type="text" name="FirstName" id="FirstName" required>
+                <label for="LastName">Last Name:</label>
+                <input type="text" name="LastName" id="LastName" required>
+            </p>
 
-</form>
-</div>
+            <p>
+                Select a race:
+            </p>
+            <div>
+                <form>
+                    <p>
+                        <input type="radio" name="RunType1" id="RunType1" value = "RunType1">
+                        <label for="RunType1">Fun Run 5k</label> 
+                    </p>
+                    <p>
+                        <input type="radio" name = "RunType2" id = "RunType2" value = "RunType2">
+                        <label for="RunType2">Half Marathon</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="RunType3" id="RunType3" value = "RunType3">
+                        <label for="">Full Marathon</label>
+                    </p>
+                </form>
+                <form action="">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                    <br>
+                    <label for="age">Select Age Group</label>
+                    <select name="age" id="age">
+                        <option name="under18" id="under18">Under 18</option>
+                        <option name="18to20" id="18to20">18 - 20</option>
+                        <option name="30to50" id="30to50">30 - 50</option>
+                        <option name="50+" id="50+">50+</option>
+                    </select>
+
+                </form>
+            </div>
+
+        </form>
+    </div>
 
 </body>
 
