@@ -10,6 +10,7 @@ h1 {
     background-color: paleturquoise;
     padding: 50px;
     margin: 50px;
+    display: none; /*The document still will show the element in the code, but they will not show up on the page.*/
 }
 
 /* span {
@@ -25,4 +26,14 @@ span {
     /*If an element has a display of in-line, width is ignored, height is ignored.*/
     padding: 50px;
     margin: 50px; /*Margin is respected on the same line of the text but anywhere else it is not*/
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab ;
+    border: 5px solid black;
+    display: inline-block;
+    /*If you make the divs INLINE ONLY, they pile on top of each other because width and height are not respected, so they collapse onto each other. However, if you make the display INLINE-BLOCK, then they respect width, height, and line up on the page.*/
+    margin: 50px;
 }
