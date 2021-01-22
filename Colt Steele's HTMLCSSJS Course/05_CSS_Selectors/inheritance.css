@@ -84,11 +84,6 @@ a[href *="google"]{
     color:magenta; /*super janky, don't do this - Colt's words lol - case sensitive*/
 }
 
-.post button:hover {
-    background-color: #e63946;
-    color: #f1faee;
-}
-
 .post a:hover {
     text-decoration: underline;
 }
@@ -111,6 +106,11 @@ p::first-line{
 
 p::selection{
     background-color: #560bad;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
 }
 
 button:hover{
