@@ -113,3 +113,8 @@ p::selection{
     background-color: #560bad;
 }
 
+button:hover{
+    background-color: olive;
+    font-size: 10px;
+}
+
