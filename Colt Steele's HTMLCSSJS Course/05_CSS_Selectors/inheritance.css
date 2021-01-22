@@ -42,3 +42,32 @@ input{
     background-color:pink; Directly selecting the input does turn the input pink.
 } */
 
+/* h2 + button {
+    font-size: 20px;
+    background-color: magenta; Again, h2 does not get styled but the button tags directly after the h2s get styled.
+} */
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color: #4579bd;
+}
+
+input[type="password"] {
+    color:greenyellow;
+}
+
+/* section[class="post"]{
+    background-color: purple;
+} */
+
+/*Better way of doing the above*/
+section.post { /*Only the sections with the class of post*/
+
+}
+
+a[href *="google"]{
+    color:magenta; /*super janky, don't do this - Colt's words lol - case sensitive*/
+}
