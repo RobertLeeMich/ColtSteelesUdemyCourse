@@ -34,6 +34,11 @@ footer a {
     color:red;
 }
 
-h1 + p { /*Adjacent selector, one after the other*/
-
+/* input + button{ Adjacent selector, one after the other
+    background-color: pink; the input did not turn pink, but the adjacent button turned pink.
 }
+
+input{
+    background-color:pink; Directly selecting the input does turn the input pink.
+} */
+
