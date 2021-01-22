@@ -1,3 +1,14 @@
 h2 {
     color:aqua;
+    background-color: mediumvioletred;
+}
+
+p {
+    color:darkorange;
+    background:navy; /*Background is not a normal property and does more changes than just the background.*/
+}
+
+button {
+    color:magenta;
+    background-color: mediumturquoise;
 }
