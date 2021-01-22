@@ -1,0 +1,28 @@
+/* h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline; /*Set h1 block level elements to inline elements instead
+} */
+
+h1 {
+    width: 300px;
+    height: 200px;
+    background-color: paleturquoise;
+    padding: 50px;
+    margin: 50px;
+}
+
+/* span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    /* display: block; Make them take up the page with 100% width 
+} */
+
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    /*If an element has a display of in-line, width is ignored, height is ignored.*/
+    padding: 50px;
+    margin: 50px; /*Margin is respected on the same line of the text but anywhere else it is not*/
+}
