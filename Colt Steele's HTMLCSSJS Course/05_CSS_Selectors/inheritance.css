@@ -2,6 +2,16 @@ body{
     background-color: #f1faee;
 }
 
+.signup{
+    background-color: midnightblue;
+    color:white;
+}
+
+.tags {
+    background-color: red;
+    color:white;
+}
+
 button {
     font-size: 30px;
     background-color: #a8dadc;
@@ -28,6 +38,8 @@ span {
 
 .post a {
     color: #1d3557;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 footer a {
@@ -71,3 +83,33 @@ section.post { /*Only the sections with the class of post*/
 a[href *="google"]{
     color:magenta; /*super janky, don't do this - Colt's words lol - case sensitive*/
 }
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #f8edeb;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: #560bad;
+}
+
