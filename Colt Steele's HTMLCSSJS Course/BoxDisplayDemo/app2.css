@@ -1,0 +1,46 @@
+section {
+    background-color: #0A369D;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #FE5F55;
+    width: 70%;
+    height: 20%;
+}
+
+h1 {
+    font-size:40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+h2{
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1em;
+}
+
+article {
+    font-size: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: orchid;
+    color:whitesmoke;
+}
+
+ul {
+    font-size: 0.7em;
+} /*If the parent container's font is a certain amount and the ul has other uls nested in it, the font size can grow or shrink quickly outside of your control*/

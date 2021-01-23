@@ -4,4 +4,13 @@ Percentages - Percentages are always relative to some other value
     -Sometimes it's a value from the parent and other times it's a value from the element itself.
     width: 50% - half the width of the parent
     line-height: 50% - half the font-size of the element itself
-    
+    -Per property basis generally
+
+em - em's are relative Units
+    -With font size, 1em equals the font size of the parent. 2em's is twice the font size of the parent, etc.
+    -With other properties, 1em is equal to the computed font size of the element itself.
+    -For padding or margin, they are not equal to the margin or padding or font-size of the parent. 1 em is equal to the font-size of the element itself.
+
+rem - ROOT EMS
+    =Relative to the root html element's font-size. Often easier to work with.
+    -If the root font size is 20px, 1 rem is always 20px, 2rem is always 40px, etc.
