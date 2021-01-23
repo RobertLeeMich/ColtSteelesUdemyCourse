@@ -16,20 +16,20 @@ h1 {
     line-height: 200%;
 }
 
-h2{
+#ems h2{
     font-size: 5em;
     margin-left: 1em;
 }
 
-h3 {
+#ems h3 {
     font-size: 1.5em;
 }
 
-p{
+#ems p{
     font-size: 1em;
 }
 
-article {
+#ems {
     font-size: 20px;
 }
 
@@ -42,5 +42,21 @@ button {
 }
 
 ul {
-    font-size: 0.7em;
+    font-size: 1.5em;
 } /*If the parent container's font is a certain amount and the ul has other uls nested in it, the font size can grow or shrink quickly outside of your control*/
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 3rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
+}
