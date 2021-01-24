@@ -108,12 +108,17 @@ body {
     line-height: 1.5;
     padding: 15px 0;
     border-top: 1px solid #e1f1ff;
+    
+}
+
+.pricing-features-item:last-child{
     border-bottom: 1px solid #e1f1ff;
+
 }
 
 .pricing-price {
-    font-size: 30px;
-    font-weight: 1000;
+    font-size: 32px;
+    font-weight: 700;
     color: #016ff9;
     display: block;
     padding: 0 0 40px 0;
@@ -122,9 +127,16 @@ body {
 }
 
 .pricing-button {
-    border: 5px solid #e1f1ff;
+    border: 1px solid #9dd1ff;
     padding: 15px;
-    border-radius: 10%;
+    border-radius: 10px;
     letter-spacing: 1px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+}
+
+.pricing-button:hover {
+
 }
 
