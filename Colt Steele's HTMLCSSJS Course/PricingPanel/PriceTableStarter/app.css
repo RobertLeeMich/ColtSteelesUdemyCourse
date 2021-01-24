@@ -108,7 +108,23 @@ body {
     line-height: 1.5;
     padding: 15px 0;
     border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
 }
 
+.pricing-price {
+    font-size: 30px;
+    font-weight: 1000;
+    color: #016ff9;
+    display: block;
+    padding: 0 0 40px 0;
+    letter-spacing: 1px;
+    
+}
 
+.pricing-button {
+    border: 5px solid #e1f1ff;
+    padding: 15px;
+    border-radius: 10%;
+    letter-spacing: 1px;
+}
 
