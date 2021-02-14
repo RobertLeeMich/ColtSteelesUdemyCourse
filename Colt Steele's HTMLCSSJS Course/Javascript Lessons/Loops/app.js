@@ -57,6 +57,12 @@ let animals = [
     //     console.log(i, animals[i]);
     // }
 
-    for (let i = animals.length; i >= 0; i-- ){
-        console.log(i, animals[i]);
-    }
+    // for (let i = animals.length; i >= 0; i-- ){
+    //     console.log(i, animals[i]);
+    // }
+
+    // const seatingChart= [
+    //     ['Kristen', 'Erik', 'Namita']
+    //     ['Geoff', 'Juanita', 'Antonio', 'Kevin']
+    //     ['Yuma', 'Sakura', 'Jack', 'Erika']
+    // ]
