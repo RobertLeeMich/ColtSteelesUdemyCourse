@@ -53,6 +53,10 @@ let animals = [
     "Arctic Fox",
     ]
 
-    for (let i = 0; i <=animals.length; i++ ){
+    // for (let i = 0; i <=animals.length; i++ ){
+    //     console.log(i, animals[i]);
+    // }
+
+    for (let i = animals.length; i >= 0; i-- ){
         console.log(i, animals[i]);
     }
