@@ -9,3 +9,7 @@ const games = ["Elden Ring", "Lost Ark", "Deep Rock Galactic", "American Truck S
 /* for (variable of iterable item) {
     statement
 } */
+
+for (let item of games) {
+    console.log(item)
+}
