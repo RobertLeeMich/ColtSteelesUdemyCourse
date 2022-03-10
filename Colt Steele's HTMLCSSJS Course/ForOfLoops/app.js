@@ -6,3 +6,6 @@ const games = ["Elden Ring", "Lost Ark", "Deep Rock Galactic", "American Truck S
     console.log(` Game: ${games[i]}`)
 } */
 
+/* for (variable of iterable item) {
+    statement
+} */
