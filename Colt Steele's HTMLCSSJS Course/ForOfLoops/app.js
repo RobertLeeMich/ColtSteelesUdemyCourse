@@ -37,3 +37,14 @@ for (let i = 0; i < seats.length; i++){
     } //This prints each seat on its own that is in the array
 } */
 
+// for (let char of "hello world") {
+//     console.log(char)
+//} 
+//this prints each character in the string on its own in the console
+
+const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// WRITE YOUR LOOP BELOW THIS LINE:
+for (int item of numbers) {
+    console.log(item * item);
+}
