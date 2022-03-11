@@ -43,13 +43,17 @@ const gamescores = {
 
 //sum up gamescores values
 let totalScore = 0;
+let scores = Object.values(gamescores)
 
-for (let score of Object.values(gamescores)){
+for (let score of /*Object.values(gamescores)*/ scores){
     totalScore += score;
-    console.log(totalScore);
 }//this will get the value from the pairs because we called Object.values and converted gamescores to an array. Notice we did not use for...IN, we used for...OF here and it works fine
 
 //for the totalScore section, calling totalScore in the console gets us a total of 51 which is the total of all the numbers in the values of the key/value pairs
 
 //length of object
 //objects do not have a length so gamescores.length will not work.
+console.log(totalScore); //totals the gamescores values
+console.log(totalScore / scores.length); //finds average of gamescores values
+
+//iterating over objects is nowhere near as common as iterating over arrays.
