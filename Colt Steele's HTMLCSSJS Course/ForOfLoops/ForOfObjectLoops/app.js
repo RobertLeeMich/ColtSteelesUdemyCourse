@@ -30,3 +30,26 @@
 
 //Object.entries will give us a nested array of key/value pairs. THIS PRINTS BOTH THE KEYS AND THE VALUES
 
+const gamescores = {
+    LostArk: 8,
+    EldenRing: 9,
+    MHR: 7,
+    Dyson: 6,
+    Hunt: 8,
+    Rock: 9,
+    Escape: 1,
+    Counter: 3
+}
+
+//sum up gamescores values
+let totalScore = 0;
+
+for (let score of Object.values(gamescores)){
+    totalScore += score;
+    console.log(totalScore);
+}//this will get the value from the pairs because we called Object.values and converted gamescores to an array. Notice we did not use for...IN, we used for...OF here and it works fine
+
+//for the totalScore section, calling totalScore in the console gets us a total of 51 which is the total of all the numbers in the values of the key/value pairs
+
+//length of object
+//objects do not have a length so gamescores.length will not work.
