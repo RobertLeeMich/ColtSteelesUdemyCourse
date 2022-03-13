@@ -11,7 +11,8 @@ window.setTimeout(function() {
             } else if (input === "list"){
                console.log(todos); 
             } else if (input === "delete"){
-
+            const index = prompt("Ok, enter an index to delete:")
+            todos.splice(index, 1);
             }
         break;
         }
