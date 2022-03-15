@@ -4,7 +4,7 @@ storage of todos will be in an array */
 let todos = []
 let input = prompt("What would you like to do?")
 window.setTimeout(function() {
-        while (prompt !== "quit" || prompt !== "q"){
+        while (prompt !== "quit" && prompt !== "q"){
             if (input === "new"){
             let newInput = prompt("please add to the todo");
             todos.push(newInput);
@@ -16,5 +16,6 @@ window.setTimeout(function() {
             }
         break;
         }
+        input = prompt("What would you like to do?")
     
 }, 100);
