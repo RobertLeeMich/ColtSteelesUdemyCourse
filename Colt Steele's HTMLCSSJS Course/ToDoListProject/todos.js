@@ -2,9 +2,9 @@
 While the results are not equal to quit, just keep looping
 storage of todos will be in an array */
 let todos = []
+let input = prompt("What would you like to do?")
 window.setTimeout(function() {
-        let input = prompt("What would you like to do?")
-        while (prompt !== "quit"){
+        while (prompt !== "quit" || prompt !== "q"){
             if (input === "new"){
             let newInput = prompt("please add to the todo");
             todos.push(newInput);
@@ -18,4 +18,3 @@ window.setTimeout(function() {
         }
     
 }, 100);
-
