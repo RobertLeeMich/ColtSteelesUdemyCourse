@@ -21,5 +21,4 @@ while (prompt !== "quit" && prompt !== "q"){
             
         break;
 }
-        input = prompt("What would you like to do?")
     
