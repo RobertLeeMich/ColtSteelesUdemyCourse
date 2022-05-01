@@ -4,4 +4,4 @@ function singSong() {
     console.log("MI")
 }
 
-singSong();
+//singSong(); if I wanted to immediately run the function on page load
