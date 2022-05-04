@@ -1,7 +1,8 @@
 function lastElement (arg){
-    if (arg.length) {
-        return arg[arg.length - 1];
+    /* if the arg has a length*/if (arg.length) {   
+ /*return arg.length - 1 which returns the last item in the array, if there is an array */       return arg[arg.length - 1];
     } else {
+    /*Return null if the array doesn't have a length*/
     return null;
     }
 }
