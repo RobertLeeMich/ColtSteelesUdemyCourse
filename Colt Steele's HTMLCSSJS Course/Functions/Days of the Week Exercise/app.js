@@ -1,7 +1,7 @@
 function returnDay (num){
 
 if (num === 1){
-    return 'monday';
+    return 'Monday';
 } else if(num === 2) {
     return 'Tuesday'
 } else if (num === 3){
