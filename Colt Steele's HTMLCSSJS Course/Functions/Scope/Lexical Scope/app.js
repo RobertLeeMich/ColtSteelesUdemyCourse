@@ -9,4 +9,4 @@ function bankRobbery() {
     cryForHelp();
 }
 
-//Don't forget to add the () when calling a .[function] on something -_-
+//Don't forget to add the () when calling a .[function] on something -_-!
