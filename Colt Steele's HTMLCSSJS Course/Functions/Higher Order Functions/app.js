@@ -19,7 +19,7 @@ function rollDie(){
 //Returning Functions lesson in Higher Order Functions lesson
 
 function makeMysteryFunc(){
-    const rand = Math.Random();
+    const rand = Math.random();
     if (rand > 0.5) {
         return function() {
             console.log("Congrats, good function")
@@ -30,3 +30,5 @@ function makeMysteryFunc(){
         }
     }
 }
+
+//We can assign the entire above block of code to a variable by putting const mystery = makeMysteryFunc() in the console and assigning the function to the variable. Or just do it in the code too.
