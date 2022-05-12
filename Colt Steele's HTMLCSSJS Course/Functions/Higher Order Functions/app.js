@@ -32,3 +32,9 @@ function makeMysteryFunc(){
 }
 
 //We can assign the entire above block of code to a variable by putting const mystery = makeMysteryFunc() in the console and assigning the function to the variable. Or just do it in the code too.
+
+
+//the below function returns false for under 50 but true for over 50
+function isBetween(){
+    return num >= 50 && num <= 100
+} 
