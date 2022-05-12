@@ -19,7 +19,7 @@ function rollDie(){
 //Returning Functions lesson in Higher Order Functions lesson
 
 function makeMysteryFunc(){
-    const rand = math.Random();
+    const rand = Math.Random();
     if (rand > 0.5) {
         return function() {
             console.log("Congrats, good function")
