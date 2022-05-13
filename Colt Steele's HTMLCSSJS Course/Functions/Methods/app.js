@@ -16,7 +16,7 @@
 
 const myMath2 = {
     PI : 3.14159,
-    square: (num2) => {
+    square (num2)  {
         return num2 * num2;
     },
     cube (num2) {
