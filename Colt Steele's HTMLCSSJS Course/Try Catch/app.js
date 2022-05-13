@@ -13,13 +13,13 @@
 //the console.log below it will still run even though the hello.toUpperCase still errors out
 
 //using try/catch is important in AJAX etc. 
-try {
-function yell(msg){
-    console.log(msg.toUpperCase().repeat(3));
-}
-} catch {
-    console.log("error")
-}
 
-//when calling strings, use "" around the arg!!!!
+function yell(msg){
+    try {
+    console.log(msg.toUpperCase().repeat(3));
+} catch (e) {
+    console.log(e)
+    console.log("pls pass string")
+}
+}
 
