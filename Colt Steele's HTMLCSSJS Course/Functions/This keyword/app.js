@@ -2,7 +2,8 @@ const cat = {
     name : 'Zeus Cat',
     color: 'Orange',
     breed: 'Maine Coon',
-    meow () {
+    meow() {
+        console.log("This is:", this)
         console.log(`${this.name} says meow`);
     }
 }
@@ -14,3 +15,5 @@ const cat = {
 const meow2 = cat.meow;
 
 //when we call the above line of code with meow2(), it just prints "says meow". 
+//This is because .this in this call of meow2() references the TOP LEVEL OBJECT called "window" which is created on every new webpage. All of the functions we can natively use in js exist inside of the "window" object
+
