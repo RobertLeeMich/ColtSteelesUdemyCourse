@@ -1,8 +1,14 @@
+//declare object
 const hen = {
+    //declare object property
     name: "Helen",
+    //declare object property
     eggCount: 0,
+    //declare function in object that changes value of another property
     layAnEgg() {
+        //this here refers to "hen", .eggCount refers to property in object that is numberical
         this.eggCount += 1
+        //logs to console
         console.log("EGG");
     }
 }
