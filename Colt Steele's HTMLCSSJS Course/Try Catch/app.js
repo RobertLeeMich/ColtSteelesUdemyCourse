@@ -23,3 +23,5 @@ function yell(msg){
 }
 }
 
+//typically you'll be returning null or something from a try catch, this is just an example
+
