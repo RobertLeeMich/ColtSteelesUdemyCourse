@@ -26,3 +26,7 @@ const movies = [
         score: 30
     }
     ]
+
+   const titles = movies.map(function(movie){
+        return movie.title.toUpperCase();
+    })
