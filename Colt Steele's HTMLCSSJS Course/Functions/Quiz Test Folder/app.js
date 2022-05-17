@@ -3,5 +3,5 @@ const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 
 
 // Write your code here
 const firstNames = fullNames.map(function(name){
-    return name.firstNames;
+    return name.first;
 })
