@@ -29,4 +29,16 @@ const movies = [
     title: "Movie2",
     score: 70
 },
+{
+    title: "Movie3",
+    score: 60
+},
+{
+    title: "Movie4",
+    score: 30
+}
 ]
+
+movies.forEach(function(movie){
+    console.log(`${movie.title} - ${movie.score}/100`);
+})
