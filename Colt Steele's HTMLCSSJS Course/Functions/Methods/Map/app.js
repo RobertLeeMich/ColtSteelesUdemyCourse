@@ -8,3 +8,21 @@ const numberMap = nums.map (function(num){
     return num * 2;
 })
 
+const movies = [
+    {
+        title: "Movie1",
+        score: 99
+    },
+    {
+        title: "Movie2",
+        score: 70
+    },
+    {
+        title: "Movie3",
+        score: 60
+    },
+    {
+        title: "Movie4",
+        score: 30
+    }
+    ]
