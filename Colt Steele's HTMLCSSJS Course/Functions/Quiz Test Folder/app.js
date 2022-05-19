@@ -1,5 +1,5 @@
-const greet = (x) => {
-    return `Hey ${x}`
+const greet = (name) => {
+    return `Hey ${name}!`
 };
 
 //Got it in 1
