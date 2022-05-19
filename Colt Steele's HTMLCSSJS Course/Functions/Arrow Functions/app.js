@@ -23,11 +23,12 @@ const sq = x => {
 // }
 
 //implicit arrow functions
-//replacing the brackets with parenthesis works with "returns" that return ONE value only
+//replacing the brackets with parenthesis works with "returns" that return ONE value only, ONE EXPRESSION in body of function
 const rollDie = () => (
     Math.floor(Math.random() * 6) +1
 )
 
 //this is the shortest implicit arrow function that can be done that is functional, generally. One line.
 const add2 = (a, b) => a + b
+
 
