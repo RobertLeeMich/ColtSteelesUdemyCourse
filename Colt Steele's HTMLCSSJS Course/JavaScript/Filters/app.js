@@ -64,3 +64,6 @@ const movies = [{
 const goodMovies = movies.filter(movie => {
     return movie.score > 50
 })
+
+//smaller code from lesson
+const goodMovies2 = movies.filter(m => m.score > 80)
