@@ -15,47 +15,47 @@ const movies = [{
     score: 99,
     year: 1984
 }, {
-    title: "Movie1",
+    title: "Movie2",
     score: 54,
     year: 2022
 }, {
-    title: "Movie1",
+    title: "Movie3",
     score: 45,
     year: 2010
 }, {
-    title: "Movie1",
+    title: "Movie4",
     score: 23,
     year: 1952
 }, {
-    title: "Movie1",
+    title: "Movie5",
     score: 95,
     year: 1947
 }, {
-    title: "Movie1",
+    title: "Movie6",
     score: 1,
     year: 1944
 }, {
-    title: "Movie1",
+    title: "Movie7",
     score: 10,
     year: 1942
 }, {
-    title: "Movie1",
+    title: "Movie8",
     score: 57,
     year: 1966
 }, {
-    title: "Movie1",
+    title: "Movie9",
     score: 100,
     year: 1999
 }, {
-    title: "Movie8",
+    title: "Movie10",
     score: 47,
     year: 1965
 }, {
-    title: "Movie9",
+    title: "Movie11",
     score: 50,
     year: 1950
 }, {
-    title: "Movie10",
+    title: "Movie12",
     score: 33,
     year: 1883
 }, 
