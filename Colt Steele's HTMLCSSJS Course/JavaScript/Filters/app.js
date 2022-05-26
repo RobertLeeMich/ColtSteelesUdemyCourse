@@ -70,4 +70,5 @@ const goodMovies2 = movies.filter(m => m.score > 80)
 
 //filter for titles
 const goodTitles = goodMovies.map(m => m.title)
-//
+
+const allInOne = movies.filter(m => m.score > 80).map(m => m.title);
