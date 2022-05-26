@@ -6,3 +6,4 @@
 const id = setInterval(() => {
     console.log(Math.random())
 }, 2000);
+//to stop an interval, you should put in clearInterval(id) or whatever var it's assigned to.
