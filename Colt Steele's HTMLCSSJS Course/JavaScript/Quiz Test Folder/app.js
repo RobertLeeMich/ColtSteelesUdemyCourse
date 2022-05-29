@@ -1,2 +1,2 @@
-const isEven = (arr) => arr % 2;
-const allEvens = arr => arr.every(isEven);
+const isEven = (arr)) => arr %2 === 0
+const evens = arr => arr.every(isEven);
