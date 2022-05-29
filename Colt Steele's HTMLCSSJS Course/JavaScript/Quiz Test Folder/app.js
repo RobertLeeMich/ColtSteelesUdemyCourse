@@ -1,3 +1,5 @@
-const isEven = arr => arr % 2;
+function isEven() {
+    const isEven2 = arr => arr % 2
 
-arr.every(isEven);
+    return arr.every(isEven2);
+}
