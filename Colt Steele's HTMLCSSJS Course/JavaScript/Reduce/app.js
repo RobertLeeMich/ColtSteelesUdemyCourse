@@ -61,6 +61,4 @@ const movieReduce = movies.reduce((bestMovie, currMovie) => {
 
 const numbers = [2,4,6,8]
 
-numbers.reduce((sum,num) => {
-    return sum + num
-})
+numbers.reduce((sum,num) => sum + num
