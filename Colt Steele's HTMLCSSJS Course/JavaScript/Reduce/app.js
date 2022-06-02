@@ -28,3 +28,39 @@ const minPrice = arr.reduce((min, currentPrice) => {
     return min;
 })
 //this code returns to console 1.5 which is the smallest price.
+//if we wanted the max price, we would swap < to >. 
+
+const movies = [{
+    title: "Movie1",
+    score: 96,
+    year: 1994
+},
+{
+    title: "Movie2",
+    score: 69, //huehue nice
+    year: 2010
+},
+{
+    title: "Movie3",
+    score: 42,
+    year: 2006
+}];
+
+//finding the highest rated movie with reduce
+
+const movieReduce = movies.reduce((bestMovie, currMovie) => {
+    if ( currMovie.score > bestMovie.score){
+        return currMovie
+    }
+    return bestMovie
+})
+
+//the point of reduce is to boil items down to a single value.
+
+//can specify an inital starting point in an array
+
+const numbers = [2,4,6,8]
+
+numbers.reduce((sum,num) => {
+    return sum + num
+})
