@@ -57,8 +57,10 @@ const movieReduce = movies.reduce((bestMovie, currMovie) => {
 
 //the point of reduce is to boil items down to a single value.
 
-//can specify an inital starting point in an array
+//can specify an inital starting point in an array, not from the array itself, but using a separate number to be manipulated by the code. In this case, it's 100, so the base starting number is 100 instead of 0. 
 
 const numbers = [2,4,6,8]
 
-numbers.reduce((sum,num) => sum + num
+numbers.reduce((sum,num,) => sum + num, 100)
+
+//we can add a number to the end of the addition code (or whatever you have in there) to have it start from that base number and then add the numbers from .reduce to it
