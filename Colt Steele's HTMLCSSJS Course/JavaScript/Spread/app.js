@@ -34,3 +34,16 @@ const catDog = {
     ...canine
 }
 //If there is a property that is the same in 2 objects, the object that gets copied over last will overwrite the property so in this case, 'Caninae' would end up being the family in the catDog object.
+
+//a real life example, perhaps
+
+const dataFromForm = {
+    email: 'bob@mail.com',
+    password: 'tobfunke',
+    username: 'tfunke'
+}
+//say we want to add another identifier to this like isAdmin and set it to true or false and an id number:
+
+const newUser = {...dataFromForm, id: 3456, isAdmin: false};
+
+//so now when a new user is added the id field is added to the user object as well as the isAdmin field.
