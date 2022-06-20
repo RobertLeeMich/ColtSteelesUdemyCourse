@@ -8,7 +8,10 @@
 //doing this lets you analyze args in the output
 
 function sum (...nums){
-    console.log(nums)
+    //console.log(nums)
+    return nums.reduce((total, el) => total + el)
 }
-//the (...) here is actually a rest, which will pull all associated numbers in the arguments into the argument from whatever the user puts in for args
+//the (...) here is actually a rest, which will pull all associated numbers in the arguments into the argument from whatever the user puts in for args and makes it into an array
+//In pasting in the .reduce statement we are able to actually sum up the arguments entered.
+//I probably have to review .reduce.
 
