@@ -8,3 +8,6 @@ Math.max(...nums); //(He had the number 67 here and I don't know why)
 //same as calling:
 //Math.max(9, 3, 2, 8)
 //The spread operator (...) inserts the variable as individual variables from the array.
+
+const cats = ['Cat1', 'Cat2', 'Cat3']
+const dogs = ['Dog1', 'Dog2', 'Dog3']
