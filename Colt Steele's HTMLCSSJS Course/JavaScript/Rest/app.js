@@ -15,3 +15,13 @@ function sum (...nums){
 //In pasting in the .reduce statement we are able to actually sum up the arguments entered.
 //I probably have to review .reduce.
 
+function raceResults(gold, silver, ...everyoneElse){
+    console.log(`GOLD MEDAL GOES TO ${gold}`)
+    console.log(`SILVER MEDAL GOES TO ${silver}`)
+    console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`)
+}
+
+//The first 2 args entered will be assigned to gold and silver, and everyoneElse will be conglomerated into a separate array and printed whatever gets added to args after the first 2 args
+
+//"arguments" doesn't work inside arrow functions at all, btw.
+
