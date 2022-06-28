@@ -12,4 +12,4 @@ const user = {
 
 //const email = user.email;
 //The above is the same as below.
-const {email} = user;
+const {email, firstName, lastName, city, bio} = user;
