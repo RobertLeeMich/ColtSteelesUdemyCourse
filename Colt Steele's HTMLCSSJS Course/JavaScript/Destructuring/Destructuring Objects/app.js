@@ -10,6 +10,24 @@ const user = {
     state: "Utah"
 }
 
+const user2 = {
+    email: "user2@gmail.com",
+    password: "password",
+    firstName: "User2",
+    lastName: "Name2",
+    born: 1999,
+    died: 2004,
+    bio: "Username2 is a username2",
+    city: "Tulsa",
+    state: "Oklahoma"
+}
+
 //const email = user.email;
 //The above is the same as below.
 const {email, firstName, lastName, city, bio} = user;
+
+//If we want to rename a property (ex: for use somewhere else but with a different name for example) we just do the below
+const { born: birthYear, died: deathYear } = user;
+
+
+
