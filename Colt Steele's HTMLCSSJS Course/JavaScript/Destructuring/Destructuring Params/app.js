@@ -14,7 +14,12 @@ const user = {
 //     return `${user.firstName} ${user.lastName}`
 // }
 
-function fullName(user){
-    const {firstName, lastName} = user;
+// function fullName(user){
+//     const {firstName, lastName} = user;
+//     return `${firstName} ${lastName}`
+// }
+
+function fullName({firstName, lastName}) {
     return `${firstName} ${lastName}`
 }
+//the above is much shorter, we don't have to bother using 'user' at all anywhere in it and it will still pull from the object.
